@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Mulish&family=Playfair+Display:ital,wght@0,400;0,900;1,400&family=Roboto:ital,wght@0,100;0,400;1,400&family=Rochester&display=swap');
+body{
+    margin: 0;
+}
+.container {
+    max-width: 1440px;
+    background-color: #FFFFFF;
+    margin: auto;
+
+}
+.header {
+    max-width: 1440px;
+    background-color: #FFFFFF;
+    margin: auto;
+}
+.header-link{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 29px;
+    align-items: center;
+}
+.header-link h3{
+margin: 0;
+padding-left: 165px;
+font-family: 'Rochester';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 41px;
+color: #1B2437;
+
+}
+.footer-icons1{
+padding-left: 178px;
+
+}
+.footer-icons2{
+    margin-left: 40px;
+}
+.footer-icons3{
+    margin-left: 30px;
+}
+.menu-container{
+    max-width: 1440px;
+    display: grid;
+    height: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 457px;
+    padding-right: 426px;
+    align-self: auto;
+    justify-items: center;
+    margin-top: 40px;
+}
+.Home{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 37px;
+    color: #EDA3B5;
+}
+.shop-blog-contacts{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 37px;
+    color: #000000;
+    text-decoration:none;
+}
+.show-more{
+    max-width: 1439px;
+    height: 570px;
+    background: url(../img/hero.png);
+}
+.container-show-more{
+    padding-top: 106px;
+    padding-left: 164px;
+    max-width: 420px;
+}
+.show-more h3{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 67px;
+    color: #FFFFFF;
+    margin: 0;
+}
+.show-more p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin: 0;
+    padding-top: 13px;
+    margin-bottom: 34px;
+}
+.btn-show{
+    width: 255px;
+    height: 77px;
+    background: #1B2437;
+    border-radius: 15px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.main-menu {
+    max-width: 1123px;
+    margin-left: 163px;
+    margin-top: 71px;
+    background: #F5F5F5;
+}
+.collection{
+    display: grid;
+    grid-template-columns: 445px 303px 302px;
+    gap: 30px;
+    grid-template-rows: 225px 204px;
+}
+.collection_item1{
+    grid-column-start: 1;
+   grid-column-end: 2;
+   grid-row-start: 1;
+   grid-row-end: 3;
+   background: url(../img/women_collection_category.png);
+}
+.collection_item2{
+    background: url(../img/Rectangle\ 14.png);
+}
+.collection_item3{
+    background: url(../img/dresses_category.png);
+}
+
+.collection_item4{
+    grid-column-start: -3;
+    grid-column-end: -1;
+    background: url(../img/denim_jackets_category.png);
+}
+.women-collection{
+    margin-top: 268px;
+    margin-left: 32px;
+}
+.women-collection h2 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 45px;
+    color: #FFFFFF;
+    margin: 0;
+}
+.women-collection p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin: 0;
+}
+.btn-popular{
+    background: rgba(rgb(251, 251, 251, 0.4), green, blue, alpha);
+    opacity: 0.4;
+    border-radius: 8px;
+    width: 93px;
+    height: 30px;
+    margin-top: 8px;
+    border: none;
+}
+
+.popular{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #7a7777;
+    cursor: pointer;
+}
+.women-collection22{
+    margin-top: 53px;
+    margin-left: 22px;  
+}
+
+.women-collection22 p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #1B2437;
+    margin: none;
+}
+
+.women-collection22 h2 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 45px;
+    color: #1B2437;
+    margin: none;
+    padding: none;
+}
+.newdresses{
+    margin-top: 53px;
+    margin-left: 39px; 
+}
+.new{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin: 0px;
+}
+.dresses {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 45px;
+    color: #FFFFFF;
+    margin: 0px;
+}
+.denims{
+    margin-top: 64px;
+    margin-left: 22px;
+}
+.denims p{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 45px;
+    color: #1B2437;
+    margin: 0px;
+}
+.brand{
+    width: 1110px;
+    height: 313px;
+    border-radius: 16px;
+    margin-top: 30px;
+}
+.brand-icons{
+   display: grid;
+    grid-template-columns: 255px 255px 255px 255px;
+    column-gap: 30px;
+    grid-template-rows: 207px 35px;
+}
+.imglv{
+    margin-top: 40px;
+    margin-left: 49px;
+}
+.imgdg{
+    margin-top: 34px;
+    margin-left: 77px;
+}
+.imggucci{
+    margin-top: 57px;
+    margin-left: 49px;
+}
+.imgdvn{
+    margin-top: 37px;
+    margin-left: 80px;
+}
+.brand-icons h1{
+    margin: 0px;
+    height: 30px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    text-align: center;
+}
+.nav_brand{
+    margin-left: 513px;
+}
+.shop{
+    width: 1110px;
+}
+.may-like{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 67px;
+    color: #1B2437;
+}
+.shop-container{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    gap: 30px;
+    grid-template-rows: 487px 487px;
+}
+.heart{
+    position: absolute;
+    margin-top: 16px;
+    margin-left: 290px;
+}
+.shop-container h4 {
+    height: 30px;
+    left: 189px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    margin-left: 24px;
+    margin-bottom: 0px;
+    margin-top: 16px;
+}
+.shop-container p{
+    height: 60px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 27px;
+}
+.price{
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.btn-shop-now,.btn-shop-now1,.btn-shop-now2,.btn-shop-now3,.btn-shop-now4,.btn-shop-now5 {
+    position: absolute;
+    width: 153px;
+    height: 58px;
+    background: #EDA3B5;
+    border-radius: 15px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    margin-left: 63px;
+}
+.btn-shop-now,.btn-shop-now4{
+    background: #EDA3B5;
+}
+.btn-shop-now1,.btn-shop-now2,.btn-shop-now3,.btn-shop-now5{
+    background-color: #1B2437;
+}
+
+.shop1{
+    background-color: #FFFFFF;
+}
+.price-img{
+    padding-top: 10px;
+}
+.contacts{
+    max-width: 1110px;
+    margin-top: 70px;
+    border-radius: 16px;
+}
+.contacts h3{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 67px;
+    color: #1B2437;
+}
+.contacts-link{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 70px 50px;
+    justify-content: center;
+}
+.contactsq{
+    
+    margin-left: 130px;
+    margin-top: 27px;
+    
+}
+.tel-mail-addres{
+    margin-left: 120px;
+    margin-top: 20px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    cursor: pointer;
+}
+.tel-mail-address{
+    margin-left: 90px;
+    margin-top: 20px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    cursor: pointer;
+}
+.footer-container{
+    max-width: 1140px;
+    margin-top: 70px;
+    margin-left: 165px;
+}
+.footer-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-info-left{
+    max-width: 256px;
+}
+.footer-info-right{
+    display: flex;
+    margin-right: 60px;
+    list-style-type: none;
+}
+.costumer{
+    list-style-type: none;
+    margin-top: 0px;
+}
+.more-info{
+    list-style-type: none;
+    margin-top: 0px;
+    margin-right: 65px;
+}
+.hot-links{
+    margin-right: 170px;
+    list-style-type: none;
+    margin-top: 0px;
+}
+.style-li{
+    height: 30px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    color: #8E8E93;
+    margin-bottom: 22px;
+    cursor: pointer;
+}
+.head-li{
+    height: 30px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    margin-top: 0px;
+    margin-bottom: 22px;
+    cursor: pointer;
+}
+
+.footer-info-left p{
+width: 215px;
+height: 180px;
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 30px;
+color: #5C5C5C;
+}
+.footer-info-left a{
+width: 109px;
+font-family: 'Rochester';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 41px;
+color: #1B2437;
+text-decoration: none;
+}
+.footer-social{
+    background-color: #E5E5EA;
+    max-width: 1440px;
+    height: 74px;
+    display: flex;
+    flex-direction: row;
+}
+.footer-social p{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 30px;
+    color: #8e8e93;
+    margin-left: 165px;
+    margin-top: 22px;
+}
+.class-icons{
+    margin-top: 22px;
+    margin-left: 812px;
+}
