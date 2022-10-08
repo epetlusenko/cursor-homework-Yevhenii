@@ -4,7 +4,7 @@ body{
 }
 .container {
     max-width: 1440px;
-    background-color: #FFFFFF;
+    background-color: #F5F5F5;
     margin: auto;
 
 }
@@ -30,14 +30,14 @@ line-height: 41px;
 color: #1B2437;
 
 }
-.footer-icons1{
+.header-icons1{
 padding-left: 178px;
 
 }
-.footer-icons2{
+.header-icons2{
     margin-left: 40px;
 }
-.footer-icons3{
+.header-icons3{
     margin-left: 30px;
 }
 .menu-container{
@@ -72,6 +72,7 @@ padding-left: 178px;
     max-width: 1439px;
     height: 570px;
     background: url(../img/hero.png);
+    margin-top: 50px;
 }
 .container-show-more{
     padding-top: 106px;
@@ -287,6 +288,10 @@ padding-left: 178px;
 }
 .shop{
     width: 1110px;
+    background-color: #F5F5F5;
+}
+.shop-container div{
+    background-color: #FFFFFF;
 }
 .may-like{
     font-family: 'Playfair Display';
@@ -301,6 +306,7 @@ padding-left: 178px;
     grid-template-columns: 350px 350px 350px;
     gap: 30px;
     grid-template-rows: 487px 487px;
+    background-color: #F5F5F5;
 }
 .heart{
     position: absolute;
@@ -360,8 +366,13 @@ padding-left: 178px;
     background-color: #1B2437;
 }
 
-.shop1{
+.shop2{
     background-color: #FFFFFF;
+    border-radius: 16px;
+}
+.shop1{
+    
+    border-radius: 16px;
 }
 .price-img{
     padding-top: 10px;
